@@ -50,38 +50,16 @@
 			<a class="welcome-header-nav-a" href="">Correo de la Universidad</a>
 			<a class="welcome-header-nav-a" href="">Más</a>
 		</nav>
+
 	<main>
-		<div id="conteItemCarrusel">
-			<div class="welcome-carrusel">
-				<div class="fotos-carrusel">foto</div>
-				<div class="direccion-carrusel">
-					<i>I</i>
-					<i>D</i>
-				</div>
-				</div>
-
-				<div class="fotos-carrusel">foto2</div>
-				<div class="direccion-carrusel">
-					<i>I</i>
-					<i>D</i>
-				</div>
-				</div>
-
-				<div class="fotos-carrusel">foto3</div>
-				<div class="direccion-carrusel">
-					<i>I</i>
-					<i>D</i>
-				</div>
-				</div>
-		</div>
+		
+ 		 
 
 		<div class="welcome-login-container">
 			<div class="welcome-login1">
 				<button class="welcome-login-a1" id="loginbtn" href="">
 				<h3 class="welcome-login-a-h31">UTD en Linea</h3>
-				<span class="welcome-login-a-span11"></span>	
-				<span class="welcome-login-a-span21"></span>	
-				<span class="welcome-login-a-span31"></span>	
+
 				<p class="welcome-login-a-p1">Gestiona tus horarios, clases, acreditablle a traves de nuestro nuevo sistema en linea</p>				
 				</button>
 			</div>

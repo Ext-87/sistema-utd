@@ -136,18 +136,6 @@ class Trimestral_mallaSeeder extends Seeder
 
         Trimestral_malla::create([
             'pnf_id' => '1',
-            'unidad_curricular' => 'FORMACIÓN CRÍTICA II',
-            'trayecto' => 'ii',
-            'trimestre_i' => 'INFORMÁTICA, TECNOLOGÍA Y SOCIEDAD I',
-            'uc_i' => 1,
-            'trimestre_ii' => 'INFORMÁTICA, TECNOLOGÍA Y SOCIEDAD II',
-            'uc_ii' => 1,
-            'trimestre_iii' => 'CULTURA, DEPORTE Y RECREACIÓN II',
-            'uc_iii' => 1,
-        ]);
-
-        Trimestral_malla::create([
-            'pnf_id' => '1',
             'unidad_curricular' => 'PARADIGMAS DE PROGRAMACIÓN',
             'trayecto' => 'ii',
             'trimestre_i' => 'PROGRAMACIÓN III',
@@ -194,7 +182,7 @@ class Trimestral_mallaSeeder extends Seeder
             'uc_iii' => 3,
         ]);
 
-
+    
 //======== INFORMÁTICA TRAYECTO III =========//
 
         Trimestral_malla::create([
@@ -257,7 +245,7 @@ class Trimestral_mallaSeeder extends Seeder
 
         Trimestral_malla::create([
             'pnf_id' => '1',
-            'unidad_curricular' => 'MODELADO DE BASE DE DATOS',
+            'unidad_curricular' => 'ELECTIVA III',
             'trayecto' => 'iii',
             'trimestre_ii' => 'COMUNICACIONES VÍA SATÉLITE - TECNOLOGÍAS INTERNET',
             'uc_ii' => 3,
@@ -347,21 +335,23 @@ class Trimestral_mallaSeeder extends Seeder
 
 //================ ADMINISTRACION ================================
 
+//------- TRAYECTO I -----//
+
         Trimestral_malla::create([
             'pnf_id' => '2',
-            'unidad_curricular' => 'Proyecto',
+            'unidad_curricular' => 'PROYECTO I',
             'trayecto' => 'i',
-            'trimestre_i' => 'Identificar y conocer los procesos administrativos en distintas organizaciones',
+            'trimestre_i' => 'IDENTIFICAR Y CONOCER LOS PROCESOS ADMINISTRATIVOS EN DISTINTAS ORGANIZACIONES',
             'uc_i' => 9,
-            'trimestre_ii' => 'Identificar y conocer los procesos administrativos en distintas organizaciones',
+            'trimestre_ii' => 'IDENTIFICAR Y CONOCER LOS PROCESOS ADMINISTRATIVOS EN DISTINTAS ORGANIZACIONES',
             'uc_ii' => 9,
-            'trimestre_iii' => 'Identificar y conocer los procesos administrativos en distintas organizaciones',
+            'trimestre_iii' => 'IDENTIFICAR Y CONOCER LOS PROCESOS ADMINISTRATIVOS EN DISTINTAS ORGANIZACIONES',
             'uc_iii' => 9,
         ]);
 
         Trimestral_malla::create([
             'pnf_id' => '2',
-            'unidad_curricular' => 'Formación Socio-critica ',
+            'unidad_curricular' => 'FORMACIÓN SOCIO-CRÍTICA I',
             'trayecto' => 'i',
             'uc_i' => 4,
             'uc_ii' => 4,
@@ -369,7 +359,7 @@ class Trimestral_mallaSeeder extends Seeder
 
         Trimestral_malla::create([
             'pnf_id' => '2',
-            'unidad_curricular' => 'Contabilidad',
+            'unidad_curricular' => 'CONTABILIDAD I',
             'trayecto' => 'i',
             'uc_i' => 5,
             'uc_ii' => 5,
@@ -378,21 +368,378 @@ class Trimestral_mallaSeeder extends Seeder
 
         Trimestral_malla::create([
             'pnf_id' => '2',
-            'unidad_curricular' => 'Fundamentos de la Administración',
+            'unidad_curricular' => 'FUNDAMENTOS DE LA ADMINISTRACIÓN',
             'trayecto' => 'i',
             'uc_i' => 5,
             'uc_ii' => 5,
             'uc_iii' => 5,
         ]);
 
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'EXPRESIÓN ORAL Y ESCRITA',
+            'trayecto' => 'i',
+            'uc_i' => 2,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'MARCO JURÍDICO I',
+            'trayecto' => 'i',
+            'uc_i' => 2,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'TECNOLOGÍA DE LA INFORMACIÓN Y COMUNICACIÓN',
+            'trayecto' => 'i',
+            'uc_i' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ESTADÍSTICA I',
+            'trayecto' => 'i',
+            'uc_ii' => 2,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'TEORÍA Y PRÁCTICA DEL MERCADEO',
+            'trayecto' => 'i',
+            'uc_ii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ELECTIVA I',
+            'trayecto' => 'i',
+            'trimestre_ii' => 'ÉTICA EN EL EJERCICIO PROFESIONAL DE LA ADMINISTRACIÓN',
+            'uc_ii' => 2,
+        ]);
         
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'OPERACIONES FINANCIERAS',
+            'trayecto' => 'i',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'DEBERES FORMALES DEL CONTRIBUYENTE',
+            'trayecto' => 'i',
+            'uc_ii' => 3,
+        ]);
+
+
+        //------ TRAYECTO II ------//
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'PROYECTO II',
+            'trayecto' => 'ii',
+            'trimestre_i' => 'SUPERVISIÓN Y CONDUCCIÓN TÉCNICA DE LOS PROCESOS ADMINISTRATIVOS',
+            'uc_i' => 9,
+            'trimestre_ii' => 'SUPERVISIÓN Y CONDUCCIÓN TÉCNICA DE LOS PROCESOS ADMINISTRATIVOS',
+            'uc_ii' => 9,
+            'trimestre_iii' => 'SUPERVISIÓN Y CONDUCCIÓN TÉCNICA DE LOS PROCESOS ADMINISTRATIVOS',
+            'uc_iii' => 9,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'FORMACIÓN SOCIO-CRÍTICA II',
+            'trayecto' => 'ii',
+            'uc_i' => 4,
+            'uc_ii' => 4,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'CONTABILIDAD II',
+            'trayecto' => 'ii',
+            'uc_i' => 5,
+            'uc_ii' => 5,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ORGANIZACIÓN Y SISTEMA',
+            'trayecto' => 'ii',
+            'uc_i' => 3,
+            'uc_ii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'PRESUPUESTO PÚBLICO Y PRIVADO',
+            'trayecto' => 'ii',
+            'uc_i' => 3,
+            'uc_ii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'GESTIÓN DE TALENTO HUMANO',
+            'trayecto' => 'ii',
+            'uc_i' => 3,
+            'uc_ii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'MARCO JURÍDICO II',
+            'trayecto' => 'ii',
+            'uc_i' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'FUNDAMENTO DE ECONOMÍA',
+            'trayecto' => 'ii',
+            'uc_ii' => 3,
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'DEBERES FORMALES AL CONTRIBUYENTE',
+            'trayecto' => 'ii',
+            'uc_ii' => 3,
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ADMINISTRACIÓN DE COSTOS',
+            'trayecto' => 'ii',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'GESTIÓN ECOLÓGICA AMBIENTAL',
+            'trayecto' => 'ii',
+            'uc_iii' => 2,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ELECTIVA II',
+            'trayecto' => 'ii',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'HABILIDADES DIRECTIVAS',
+            'trayecto' => 'ii',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'PRÁCTICA PROFESIONAL 120 HORAS',
+            'trayecto' => 'ii',
+            'uc_iii' => 0,
+        ]);
+
+        // ----- TRAYECTO III ------//
+
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'PROYECTO III',
+            'trayecto' => 'iii',
+            'trimestre_i' => 'PLANIFICACIÓN, DISEÑO, DESARROLLO E INNOVACIÓN DE SISTEMAS ADMINISTRATIVOS',
+            'uc_i' => 9,
+            'trimestre_ii' => 'PLANIFICACIÓN, DISEÑO, DESARROLLO E INNOVACIÓN DE SISTEMAS ADMINISTRATIVOS',
+            'uc_ii' => 9,
+            'trimestre_iii' => 'PLANIFICACIÓN, DISEÑO, DESARROLLO E INNOVACIÓN DE SISTEMAS ADMINISTRATIVOS',
+            'uc_iii' => 9,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'FORMACIÓN SOCIO-CRÍTICA III',
+            'trayecto' => 'iii',
+            'uc_i' => 4,
+            'uc_ii' => 4,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ADMINISTRACIÓN DE COSTOS II',
+            'trayecto' => 'iii',
+            'uc_i' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'CONTABILIDAD GUBERNAMENTAL',
+            'trayecto' => 'iii',
+            'uc_i' => 2,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'SISTEMAS ADMINISTRATIVOS',
+            'trayecto' => 'iii',
+            'uc_i' => 2,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'PLANIFICACIÓN Y GESTIÓN',
+            'trayecto' => 'iii',
+            'uc_i' => 3,
+            'uc_ii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ESTADÍSTICA II',
+            'trayecto' => 'iii',
+            'uc_i' => 2,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ADMINISTRACIÓN DE LA PRODUCCIÓN',
+            'trayecto' => 'iii',
+            'uc_ii' => 3,
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ANÁLISIS E INTERPRETACIÓN DE ESTADOS FINANCIEROS',
+            'trayecto' => 'iii',
+            'uc_ii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ADMINISTRACIÓN DE MERCADEO',
+            'trayecto' => 'iii',
+            'uc_iii' => 2,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ELECTIVA III',
+            'trayecto' => 'iii',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'HABILIDADES DIRECTIVAS II',
+            'trayecto' => 'iii',
+            'uc_iii' => 3,
+        ]);
+
+        // ------ TRAYECTO IV ------//
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'PROYECTO IV',
+            'trayecto' => 'iv',
+            'trimestre_i' => 'DIRECCIÓN, CONTROL Y EVALUACIÓN DE SISTEMAS ADMINISTRATIVOS.',
+            'uc_i' => 9,
+            'trimestre_ii' => 'DIRECCIÓN, CONTROL Y EVALUACIÓN DE SISTEMAS ADMINISTRATIVOS.',
+            'uc_ii' => 9,
+            'trimestre_iii' => 'DIRECCIÓN, CONTROL Y EVALUACIÓN DE SISTEMAS ADMINISTRATIVOS.',
+            'uc_iii' => 9,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'FORMACIÓN SOCIO-CRÍTICA IV',
+            'trayecto' => 'iv',
+            'uc_i' => 4,
+            'uc_ii' => 4,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ADMINISTRACIÓN FINANCIERA',
+            'trayecto' => 'iv',
+            'uc_i' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'AUDITORÍA ADMINISTRATIVA',
+            'trayecto' => 'iv',
+            'uc_i' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'INVESTIGACIÓN DE OPERACIONES',
+            'trayecto' => 'iv',
+            'uc_i' => 3,
+            'uc_ii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'CONTROL DE GESTIÓN ADMINISTRATIVO',
+            'trayecto' => 'iv',
+            'uc_i' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'GESTIÓN PÚBLICA',
+            'trayecto' => 'iv',
+            'uc_i' => 3,
+            'uc_ii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'FORMULACIÓN Y EVALUACIÓN DE PROYECTO',
+            'trayecto' => 'iv',
+            'uc_ii' => 3,
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'PAQUETES INFORMÁTICOS APLICADOS A LA ADMINISTRACIÓN',
+            'trayecto' => 'iv',
+            'uc_ii' => 3,
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'ELECTIVA IV',
+            'trayecto' => 'i',
+            'trimestre_ii' => 'PLANIFICACIÓN ESTRATÉGICA DE LOS RECURSOS HUMANOS',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '2',
+            'unidad_curricular' => 'PRÁCTICA PROGESIONAL 120 HORAS',
+            'trayecto' => 'iv',
+            'uc_iii' => 0,
+        ]);
+
 
 
 //================ AGROALIMENTACION ================================
 
+        // -------- TRAYECTO I ------//
+
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Proyecto Formativo',
+        'unidad_curricular' => 'PROYECTO FORMATIVO I',
         'trayecto' => 'i',
         'uc_i' => 6,
         'uc_ii' => 6,
@@ -401,7 +748,7 @@ class Trimestral_mallaSeeder extends Seeder
 
     Trimestral_malla::create([
         'pnf_id' => '2',
-        'unidad_curricular' => 'Principios de agroecologia',
+        'unidad_curricular' => 'PRINCIPIOS DE AGROECOLOGÍA',
         'trayecto' => 'i',
         'uc_i' => 2,
         'uc_ii' => 2,
@@ -409,7 +756,7 @@ class Trimestral_mallaSeeder extends Seeder
 
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Sociohistoria de la Agricultura Latinoamericana',
+        'unidad_curricular' => 'SOCIOISTORIA DE LA AGRICULTUTRA LATINOAMERICANA',
         'trayecto' => 'i',
         'uc_i' => 2,
         'uc_ii' => 2,
@@ -417,7 +764,7 @@ class Trimestral_mallaSeeder extends Seeder
 
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Biodiversidad y Sociodiversidad',
+        'unidad_curricular' => 'BIODIVERSIDAD Y SOCIODIVERSIDAD',
         'trayecto' => 'i',
         'uc_i' => 2,
     ]);
@@ -425,73 +772,348 @@ class Trimestral_mallaSeeder extends Seeder
     
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Calculo geometico avanzado',
+        'unidad_curricular' => 'CÁLCULO GEOMÉTRICO APLICADO',
         'trayecto' => 'i',
         'uc_i' => 2,
     ]);
 
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Principios de biologia',
+        'unidad_curricular' => 'PRINCIPIOS DE LA BIOLOGÍA',
         'trayecto' => 'i',
         'uc_i' => 2,
     ]);
 
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Matematica Aplicada',
+        'unidad_curricular' => 'MATEMÁTICA APLICADA',
         'trayecto' => 'i',
         'uc_ii' => 2,
     ]);
 
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Fisica Aplicada',
+        'unidad_curricular' => 'FÍSICA APLICADA',
         'trayecto' => 'i',
         'uc_ii' => 2,
     ]);
     
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Quimica General Aplicada',
+        'unidad_curricular' => 'QUIMICA GENERAL APLICADA',
         'trayecto' => 'i',
         'uc_ii' => 2,
     ]);
 
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Politicas y legislacion Agraria',
+        'unidad_curricular' => 'POLÍTICAS Y LEGISLACIÓN AGRARIA',
         'trayecto' => 'i',
         'uc_iii' => 2,
     ]);
 
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Botanica y Fisiologia vegetal',
+        'unidad_curricular' => 'BOTÁNICA Y FISIOLOGÍA VEGETAL',
         'trayecto' => 'i',
         'uc_iii' => 2,
     ]);
 
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Zoologia y Fisiologia Animal',
+        'unidad_curricular' => 'ZOOLOGÍA Y FISIOLOGÍA ANIMAL',
         'trayecto' => 'i',
         'uc_iii' => 2,
     ]);
 
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Maquinaria, Equipos e Implementos Agricolas',
+        'unidad_curricular' => 'MAQUINARIA, EQUIPOS E IMPLEMENTOS AGRÍCOLAS',
         'trayecto' => 'i',
         'uc_iii' => 2,
     ]);
 
     Trimestral_malla::create([
         'pnf_id' => '3',
-        'unidad_curricular' => 'Principios de Bioquimica',
+        'unidad_curricular' => 'PRINCIPIOS DE BIOQUÍMICA',
         'trayecto' => 'i',
         'uc_iii' => 2,
     ]);
 
     }
 }
+
+    // ------ TRAYECTO II ------ //
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'PROYECTO FORMATIVO II',
+        'trayecto' => 'ii',
+        'uc_i' => 6,
+        'uc_ii' => 6,
+        'uc_iii' => 6,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'TÉCNICAS Y METODOLOGÍAS AGROECOLÓGICAS',
+        'trayecto' => 'ii',
+        'uc_i' => 2,
+        'uc_ii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'SISTEMAS DE PRODUCCIÓN VEGETAL',
+        'trayecto' => 'ii',
+        'uc_i' => 2,
+        'uc_ii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'ALIMENTACIÓN Y NUTRICIÓN ANIMAL ALTERNATIVA',
+        'trayecto' => 'ii',
+        'uc_i' => 2,
+        'uc_ii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'MICROBIOLOGÍA',
+        'trayecto' => 'ii',
+        'uc_i' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'ORGANIZACIONES SOCIOPRODUCTIVAS',
+        'trayecto' => 'ii',
+        'uc_i' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'AGROEPISTEMOLOGÍA',
+        'trayecto' => 'ii',
+        'uc_ii' => 2,
+        'uc_iii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'MICROBOLOGÍA DE LOS ALIMENTOS',
+        'trayecto' => 'ii',
+        'uc_ii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'DISEMINACIÓN Y REPRODUCCIÓN DE ESPECIES VEGETALES',
+        'trayecto' => 'ii',
+        'uc_iii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'SUELO, ECOLOGÍA Y AGRICULTURA',
+        'trayecto' => 'ii',
+        'uc_iii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'REPRODUCCIÓN DE ESPECIES ANIMALES',
+        'trayecto' => 'ii',
+        'uc_iii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'TOPOGRAFÍA',
+        'trayecto' => 'ii',
+        'uc_iii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'AGROCLIMATOLOGÍA',
+        'trayecto' => 'ii',
+        'uc_iii' => 2,
+    ]);
+
+    // ------ TRAYECTO III ------ //
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'PROYECTO FORMATIVO III',
+        'trayecto' => 'iii',
+        'uc_i' => 6,
+        'uc_ii' => 6,
+        'uc_iii' => 6,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'GESTIÓN AGROECOLÓGICA',
+        'trayecto' => 'iii',
+        'uc_i' => 2,
+        'uc_ii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'ANÁLISIS MATEMÁTICO',
+        'trayecto' => 'iii',
+        'uc_i' => 2,
+        'uc_ii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'ECONOMÍA POLÍTICA Y SOCIAL',
+        'trayecto' => 'iii',
+        'uc_i' => 2,
+        'uc_ii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'ESTADÍSTICA',
+        'trayecto' => 'iii',
+        'uc_i' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'MANEJO ECOLÓGICO DE INSECTOS Y ENFERMEDADES',
+        'trayecto' => 'iii',
+        'uc_i' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'SISTEMAS DE PRODUCCIÓN ANIMAL',
+        'trayecto' => 'iii',
+        'uc_ii' => 2,
+        'uc_iii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'MANEJO SANITARIO ANIMAL',
+        'trayecto' => 'iii',
+        'uc_ii' => 2,
+        'uc_iii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'ECONOMÍA ECOLÓGICA',
+        'trayecto' => 'iii',
+        'uc_iii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'SISTEMAS DE RIESGO Y DRENAJE',
+        'trayecto' => 'iii',
+        'uc_iii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'OPERACIONES BÁSICAS EN LA TRANSFORMACIÓN',
+        'trayecto' => 'iii',
+        'uc_iii' => 2,
+    ]);
+
+    // ----- TRAYECTO IV ----//
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'PROYECTO FORMATIVO IV',
+        'trayecto' => 'iv',
+        'uc_i' => 6,
+        'uc_ii' => 6,
+        'uc_iii' => 6,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'CIENCIA, TECNOLOGÍA Y SOCIEDAD',
+        'trayecto' => 'iv',
+        'uc_i' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'SISTEMAS DE INFORMACIÓN GEOGRÁFICA',
+        'trayecto' => 'iv',
+        'uc_i' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'ECORREGIONES',
+        'trayecto' => 'iv',
+        'uc_i' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'MEJORAMIENTO ANIMAL PARTICIPATIVO',
+        'trayecto' => 'iv',
+        'uc_i' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'ECOCONSTRUCCIONES',
+        'trayecto' => 'iv',
+        'uc_ii' => 2,
+        'uc_iii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'PENSAMIENTO SOCIOPOLÍTICO LATINOAMERICANO',
+        'trayecto' => 'iv',
+        'uc_ii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'PLANIFICACIONES ECORREGIONAL',
+        'trayecto' => 'iv',
+        'uc_ii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'FITOMEJORAMIENTO PARTICIPATIVO',
+        'trayecto' => 'iv',
+        'uc_ii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'PEDAGOGÍA Y POLÍTICA',
+        'trayecto' => 'iv',
+        'uc_iii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'SISTEMAS INTEGRALES DE PRODUCCIÓN',
+        'trayecto' => 'iv',
+        'uc_iii' => 2,
+    ]);
+
+    Trimestral_malla::create([
+        'pnf_id' => '3',
+        'unidad_curricular' => 'HIEGENE Y CONTROL DE CALIDAD DE LOS ALIMENTOS',
+        'trayecto' => 'iv',
+        'uc_iii' => 2,
+    ]);
+

@@ -50,36 +50,8 @@ body{
 
 /*=========================== WELCOME CARRUSEL ====================================*/
 
-#conteItemCarrusel{
-	border: 5px solid black;
-	height: 200px;
-	overflow: hidden;
-}
 
-.welcome-carrusel{
-	width: 96%;
-	height: 50vh;
-	position: relative;
-	border: 1px solid red;
-	margin: 2px 2%;
-	position: relative;
-}
 
-.fotos-carrusel{
-	background-color: #7ec8eb;
-	height: 100%;
-}
-
-.direccion-carrusel{
-	position: absolute;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 90px;
-}
 /*=========================== WELCOME LOGIN ====================================*/
 
 .welcome-login-container{
