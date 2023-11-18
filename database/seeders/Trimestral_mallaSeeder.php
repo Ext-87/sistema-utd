@@ -15,42 +15,333 @@ class Trimestral_mallaSeeder extends Seeder
     {
 
 
-//================ INFORMATICA ================================
+//================ INFORMATICA TRAYECTO I ================================
 
         Trimestral_malla::create([
             'pnf_id' => '1',
-            'unidad_curricular' => 'Matematica',
+            'unidad_curricular' => 'MATEMÁTICA I',
             'trayecto' => 'i',
-            'trimestre_i' => 'Logica',
+            'trimestre_i' => 'LÓGICA',
             'uc_i' => 3,
-            'trimestre_ii' => 'Eestadisticas y probabilidades',
+            'trimestre_ii' => 'ESTADÍSTICA Y PROBABILIDADES',
             'uc_ii' => 3,
-            'trimestre_iii' => 'Calculo',
+            'trimestre_iii' => 'CALCULO I',
             'uc_iii' => 3,
         ]);
 
         Trimestral_malla::create([
             'pnf_id' => '1',
-            'unidad_curricular' => 'Arquitectura del computador',
+            'unidad_curricular' => 'ARQUITECTURA DEL COMPUTADOR',
             'trayecto' => 'i',
-            'trimestre_i' => 'Estructura del computador',
+            'trimestre_i' => 'ESTRUCTURA DEL COMPUTADOR',
             'uc_i' => 3,
-            'trimestre_ii' => 'Sistemas operativos',
+            'trimestre_ii' => 'SISTEMAS OPERATIVOS I',
             'uc_ii' => 3,
-            'trimestre_iii' => 'Mantenimiento de equipos de computacion',
+            'trimestre_iii' => 'MANTENIMIENTO DE EQUIPOS DE COMPUTACIÓN',
             'uc_iii' => 3,
         ]);
 
         Trimestral_malla::create([
             'pnf_id' => '1',
-            'unidad_curricular' => 'Formacion Critica',
+            'unidad_curricular' => 'FORMACIÓN CRÍTICA I',
             'trayecto' => 'i',
-            'trimestre_i' => 'cultura, deporte y recreacion',
+            'trimestre_i' => 'CULTURA, DEPORTE Y RECREACIÓN I',
             'uc_i' => 1,
-            'trimestre_ii' => 'informatica, politica de estado y soberania',
+            'trimestre_ii' => 'INFORMÁTICA, POLÍTICAS DE ESTADO Y SOBERANÍA I',
             'uc_ii' => 1,
-            'trimestre_iii' => 'informatica, politica de estado y soberania ii',
+            'trimestre_iii' => 'INFORMÁTICA, POLÍTICAS DE ESTADO Y SOBERANÍA II',
             'uc_iii' => 1,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'ALGORÍTMICA Y  PROGRAMACIÓN',
+            'trayecto' => 'i',
+            'trimestre_i' => 'Algoritmia y Programción',
+            'uc_i' => 4,
+            'trimestre_ii' => 'Programación I',
+            'uc_ii' => 4,
+            'trimestre_iii' => 'Programación II',
+            'uc_iii' => 4,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'PROYECTO SOCIOTECNOLÓGICO I',
+            'trayecto' => 'i',
+            'trimestre_i' => 'SOPORTE TÉCNICO A USUARIOS Y EQUIPOS I',
+            'uc_i' => 3,
+            'trimestre_ii' => 'SOPORTE TÉCNICO A USUARIOS Y EQUIPOS II',
+            'uc_ii' => 3,
+            'trimestre_iii' => 'informatica, politica de estado y soberania ii',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'ELECTIVA I',
+            'trayecto' => 'i',
+            'trimestre_i' => 'DISEÑO INSTRUCCIONAL EN LAS TICS',
+            'uc_i' => 3,
+            'trimestre_ii' => 'CAPITAL INTELECTUAL Y RECURSOS HUMANOS',
+            'uc_ii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'IDIOMAS',
+            'trayecto' => 'i',
+            'trimestre_i' => 'INGLÉS Y COMPRENSIÓN LECTORA  I',
+            'uc_i' => 1,
+            'trimestre_ii' => 'INGLÉS Y COMPRENSIÓN LECTORA  II',
+            'uc_ii' => 1,
+            'trimestre_iii' => 'INGLÉS Y COMPRENSIÓN LECTORA  III',
+            'uc_iii' => 1,
+        ]);
+
+//=========== INFORMÁTICA TRAYECTO II ==========//
+
+ Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'MATEMÁTICA II',
+            'trayecto' => 'ii',
+            'trimestre_i' => 'CALCULO II',
+            'uc_i' => 3,
+            'trimestre_ii' => 'ALGEBRA LINEAL',
+            'uc_ii' => 3,
+        ]);
+        
+    Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'REDES DE COMPUTADORAS',
+            'trayecto' => 'ii',
+            'trimestre_i' => 'FUNDAMENTOS Y COMPONENTES DE REDES',
+            'uc_i' => 3,
+            'trimestre_ii' => 'ADMINISTRACIÓN, PRINCIPIOS DE ENRUTAMIENTO Y SUBREDES',
+            'uc_ii' => 3,
+        ]);
+
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'FORMACIÓN CRÍTICA II',
+            'trayecto' => 'ii',
+            'trimestre_i' => 'INFORMÁTICA, TECNOLOGÍA Y SOCIEDAD I',
+            'uc_i' => 1,
+            'trimestre_ii' => 'INFORMÁTICA, TECNOLOGÍA Y SOCIEDAD II',
+            'uc_ii' => 1,
+            'trimestre_iii' => 'CULTURA, DEPORTE Y RECREACIÓN II',
+            'uc_iii' => 1,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'FORMACIÓN CRÍTICA II',
+            'trayecto' => 'ii',
+            'trimestre_i' => 'INFORMÁTICA, TECNOLOGÍA Y SOCIEDAD I',
+            'uc_i' => 1,
+            'trimestre_ii' => 'INFORMÁTICA, TECNOLOGÍA Y SOCIEDAD II',
+            'uc_ii' => 1,
+            'trimestre_iii' => 'CULTURA, DEPORTE Y RECREACIÓN II',
+            'uc_iii' => 1,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'PARADIGMAS DE PROGRAMACIÓN',
+            'trayecto' => 'ii',
+            'trimestre_i' => 'PROGRAMACIÓN III',
+            'uc_i' => 4,
+            'trimestre_ii' => 'PROGRAMACIÓN IV',
+            'uc_ii' => 4,
+            'trimestre_iii' => 'PROGRAMACIÓN V',
+            'uc_iii' => 4,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'PROYECTO SOCIOTECNOLÓGICO II',
+            'trayecto' => 'ii',
+            'trimestre_i' => 'DESARROLLO DE SOLUCIONES INFORMÁTICAS I',
+            'uc_i' => 3,
+            'trimestre_ii' => 'DESARROLLO DE SOLUCIONES INFORMÁTICAS II',
+            'uc_ii' => 3,
+            'trimestre_iii' => 'DESARROLLO DE SOLUCIONES  INFORMÁTICAS III',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'INGENIERÍA DEL SOFTWARE I',
+            'trayecto' => 'ii',
+            'trimestre_iii' => 'FUNDAMENTOS DE SISTEMAS E INGENIERÍA DEL SOFTWARE',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'BASE DE DATOS',
+            'trayecto' => 'ii',
+            'trimestre_i' => 'BASE DE DATOS',
+            'uc_i' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'ELECTIVA II',
+            'trayecto' => 'ii',
+            'trimestre_iii' => 'VOZ, Y TELEFONÍA IP- EDUMÁTICA',
+            'uc_iii' => 3,
+        ]);
+
+
+//======== INFORMÁTICA TRAYECTO III =========//
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'MATEMÁTICA APLICADA',
+            'trayecto' => 'iii',
+            'trimestre_i' => 'ESTADÍSTICA Y PROBABILIDADES II',
+            'uc_i' => 3,
+            'trimestre_ii' => 'MATEMÁTICA DISCRETA',
+            'uc_ii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'INVESTIGACIÓN DE OPERACIONES',
+            'trayecto' => 'iii',
+            'trimestre_iii' => 'INVESTIGACIÓN DE OPERACIONES',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'SISTEMAS OPERATIVOS',
+            'trayecto' => 'iii',
+            'trimestre_i' => 'SISTEMAS OPERATIVOS II',
+            'uc_i' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'FORMACIÓN CRÍTICA III',
+            'trayecto' => 'iii',
+            'trimestre_i' => 'CULTURA, DEPORTE Y RECREACIÓN III',
+            'uc_i' => 1,
+            'trimestre_ii' => 'INFORMÁTICA, COMUNICACIÓN Y TRANSFORMACIÓN I',
+            'uc_ii' => 1,
+            'trimestre_iii' => 'INFORMÁTICA, COMUNICACIÓN Y TRANSFORMACIÓN II',
+            'uc_iii' => 1,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'INGENIERÍA DEL SOFTWARE II',
+            'trayecto' => 'iii',
+            'trimestre_i' => 'FUNDAMENTOS DE INGENIERÍA DE REQUISITOS Y ANÁLISIS',
+            'uc_i' => 3,
+            'trimestre_ii' => 'FUNDAMENTOS DEL DISEÑO DE SOFTWARE',
+            'uc_ii' => 3,
+            'trimestre_iii' => 'PRUEBAS Y VALIDACIÓN DE SOFTWARE',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'MODELADO DE BASE DE DATOS',
+            'trayecto' => 'iii',
+            'trimestre_iii' => 'MODELADO DE BASE DE DATOS',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'MODELADO DE BASE DE DATOS',
+            'trayecto' => 'iii',
+            'trimestre_ii' => 'COMUNICACIONES VÍA SATÉLITE - TECNOLOGÍAS INTERNET',
+            'uc_ii' => 3,
+        ]);
+
+
+//============== INFORMÁTICA TRAYECTO IV =================//
+
+    Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'REDES AVANZADAS',
+            'trayecto' => 'iv',
+            'trimestre_iv' => 'REDES DE TELECOMUNICACIONES Y DE DATOS',
+            'uc_ii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'FORMACIÓN CRÍTICA IV',
+            'trayecto' => 'iv',
+            'trimestre_i' => 'INFORMÁTICA, GLOBALIZACIÓN Y CULTURA I',
+            'uc_i' => 1,
+            'trimestre_ii' => 'INFORMÁTICA, GLOBALIZACIÓN Y CULTURA II',
+            'uc_ii' => 1,
+            'trimestre_iii' => 'CULTURA, DEPORTE Y RECREACIÓN IV',
+            'uc_iii' => 1,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'SEGURIDAD INFORMÁTICA',
+            'trayecto' => 'iv',
+            'trimestre_i' => 'SEGURIDAD INFORMÁTICA',
+            'uc_i' => 4,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'GESTIÓN DE PROYECTOS INFORMÁTICOS',
+            'trayecto' => 'iv',
+            'trimestre_ii' => 'GESTIÓN DE PROYECTOS INFORMÁTICOS',
+            'uc_i' => 4,
+            'trimestre_iii' => 'AUDITORÍA INFORMÁTICA',
+            'uc_iii' => 4,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'PROYECTO SOCIOTECNOLÓGICO IV',
+            'trayecto' => 'iv',
+            'trimestre_i' => 'GESTIÓN DE PROYECTOS I',
+            'uc_i' => 3,
+            'trimestre_ii' => 'GESTIÓN DE PROYECTOS II',
+            'uc_ii' => 3,
+            'trimestre_iii' => 'GESTIÓN DE PROYECTOS III',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'ADMINISTRACIÓN DE BASE DE DATOS',
+            'trayecto' => 'iv',
+            'trimestre_i' => 'ADMINISTRACIÓN DE BASE DE DATOS',
+            'uc_i' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'ELECTIVA IV',
+            'trayecto' => 'iv',
+            'trimestre_iii' => 'APLICACIONES MULTIMEDIA',
+            'uc_iii' => 3,
+        ]);
+
+        Trimestral_malla::create([
+            'pnf_id' => '1',
+            'unidad_curricular' => 'IDIOMAS',
+            'trayecto' => 'iv',
+            'trimestre_i' => 'CONVERSACIONAL I',
+            'uc_i' => 3,
+            'trimestre_ii' => 'CONVERSACIONAL II',
+            'uc_ii' => 3,
+            'trimestre_iii' => 'CONVERSACIONAL III',
+            'uc_iii' => 3,
         ]);
 
 
@@ -93,6 +384,8 @@ class Trimestral_mallaSeeder extends Seeder
             'uc_ii' => 5,
             'uc_iii' => 5,
         ]);
+
+        
 
 
 //================ AGROALIMENTACION ================================

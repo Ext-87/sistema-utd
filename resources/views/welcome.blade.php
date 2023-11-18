@@ -5,6 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Inicio</title>
 	<link rel="stylesheet" href="{{asset('css/welcome.css')}}">
+	<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
 
@@ -13,10 +17,25 @@
             @csrf
 			<button class="welcome-the-login-x" id="loginx">x</button>
 			<h3 class="welcome-the-login-h3"> Ingresa al Sistema</h3>
-			<input name="cedula" id="cedula" class="welcome-the-login-input" type="number" min="1000000" placeholder="Cedula">
-			<input name="password" id="password" class="welcome-the-login-input" type="password" placeholder="Contraseña">
-			<a href="" class="welcome-the-login-a">Olvidaste tu contraseña?</a>
-			<button type="submit" class="welcome-the-login-btn">Ingresar</button>
+
+			<div class="card-body">
+
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
+						</div>
+						<input name="cedula" id="cedula" class="welcome-the-login-input" type="number" min="1000000" placeholder="Cédula">
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
+						</div>
+						<input name="password" id="password" class="welcome-the-login-input" type="password" placeholder="Contraseña">
+					</div>
+
+					<a href="" class="welcome-the-login-a">¿Olvidaste tu contraseña?</a>
+					<button type="submit" class="welcome-the-login-btn">Ingresar</button>
+			</div>		
 		</form>
 		
 	</div>
@@ -29,11 +48,31 @@
 			<a class="welcome-header-nav-a" href="">Inicio</a>
 			<a class="welcome-header-nav-a" href="">Oferta Universitaria</a>
 			<a class="welcome-header-nav-a" href="">Correo de la Universidad</a>
-			<a class="welcome-header-nav-a" href="">Mas</a>
+			<a class="welcome-header-nav-a" href="">Más</a>
 		</nav>
 	<main>
-		<div class="welcome-carrusel">
-			<img class="welcome-carrusel-img" src="UTD-696x381.jpg" alt="">
+		<div id="conteItemCarrusel">
+			<div class="welcome-carrusel">
+				<div class="fotos-carrusel">foto</div>
+				<div class="direccion-carrusel">
+					<i>I</i>
+					<i>D</i>
+				</div>
+				</div>
+
+				<div class="fotos-carrusel">foto2</div>
+				<div class="direccion-carrusel">
+					<i>I</i>
+					<i>D</i>
+				</div>
+				</div>
+
+				<div class="fotos-carrusel">foto3</div>
+				<div class="direccion-carrusel">
+					<i>I</i>
+					<i>D</i>
+				</div>
+				</div>
 		</div>
 
 		<div class="welcome-login-container">
@@ -77,7 +116,7 @@
 		</div>
 	</main>
 	<footer class="welcome-footer">
-		<p>Hecho en Venezuela, Universidad Territorial Deltaica Francisco Tamayo, todos los derechos reservados 202#.
+		<p>Hecho en Venezuela, Universidad Territorial Deltaica Francisco Tamayo, todos los derechos reservados 2023.
 Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica.
 De otra forma, requiere permiso previo por escrito de la institución.</p>
 	</footer>
